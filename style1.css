@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    /* font-family: 'Open Sans',Arial, Helvetica, sans-serif; */
+
+}
+
+/* images of the webpages are style by container */
+.container {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 65px;
+}
+
+.item1 {
+    flex-basis: 20%;
+}
+
+/* images of webpage  */
+.item1 img {
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.item1 h3,
+h2,
+p {
+    color: #a9b2b9;
+    ;
+}
+
+.item1 h2,
+p {
+    margin-top: 15px;
+
+}
+
+/* background of navbar */
+
+.nav {
+    background-color: rgb(41, 63, 80);
+    /* width: 100%; */
+    height: 150px;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* anchor tag */
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    /* float: right; */
+}
+
+h1 {
+    color: white;
+
+}
+
+.item {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.item p {
+    word-wrap: break-word;
+}
+
+.header {
+    background-color: rgb(41, 63, 80);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+
+}
+
+.header p {
+    color: white;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+.header h1 {
+    color: #648880;
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 23px 43px;
+    margin-top: 25px;
+    border-radius: 7px;
+
+
+}
+
+/* register button */
+.btn:hover {
+    background-color: white;
+    color: green;
+}
+
+/* button{
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(41, 63, 80);
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+} */
+
+
+.footer {
+    background-color: rgb(41, 63, 80);
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer h4 {
+    color: #648880;
+    margin-left: 20rem;
+}
+
+.footer a:hover {
+    color: #648880;
+}
+
+.link {
+    margin-right: 17rem;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.items h3 {
+    margin-bottom: 17px;
+    color: #648880;
+    margin-left: 135px;
+
+}
+
+.left a:hover {
+    color: #648880;
+
+}
+
+.left h1 {
+    font-size: 3rem;
+}
+
+.anchoritems a:hover {
+    color: #648880;
+}
